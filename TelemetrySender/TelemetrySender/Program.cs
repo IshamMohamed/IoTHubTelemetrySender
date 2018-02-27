@@ -12,8 +12,8 @@ namespace TelemetrySender
     {
         static DeviceClient deviceClient;
         static string iotHubUri = "{iot hub hostname}";
-        static string deviceKey = "{device key}";
         static string deviceName = "{device Name}";
+        static string deviceKey = "{device key}";
 
         static void Main(string[] args)
         {
